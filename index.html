@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>$.imageModalBox</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="imageModalBox.js"></script>
+<script>
+$(function() {
+$('a').imageModalBox({
+	containerClassName: 'modal_container',
+	overlayClassName: 'modal_overlay'
+});
+});
+</script>
+<style type="text/css"></style>
+</head>
+<body>
+<ul>
+<li><a href="img1.jpg" data-images="imageData1.json">open image modal box1</a></li>
+<li><a href="img2.jpg" data-images="imageData1.json">open image modal box1</a></li>
+<li><a href="img3.jpg" data-images="imageData1.json">open image modal box1</a></li>
+<!--<li><a href="img1.jpg" data-images="imageData2.json">open image modal box2</a></li>-->
+<!--<li><a href="img1.jpg" data-images="imageData3.json">open image modal box3</a></li>-->
+</ul>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+	{
+		"src": "img/1.jpg",
+		"minWidth": "",
+		"minHeight": "",
+		"title": "Photo 1",
+		"description": "description text 1 description text 1 description text 1 description text 1 description text 1 "
+	},
+	{
+		"src": "img/2.jpg",
+		"minWidth": "",
+		"minHeight": "",
+		"title": "Photo 2",
+		"description": "description text 2 description text 2 description text 2 description text 2 description text 2 "
+	},
+	{
+		"src": "img/3.jpg",
+		"minWidth": "",
+		"minHeight": "",
+		"title": "Photo 3",
+		"description": "description text 3 description text 3 description text 3 description text 3 description text 3 "
+	},
+	{
+		"src": "img/4.jpg",
+		"minWidth": "",
+		"minHeight": "",
+		"title": "Photo 4",
+		"description": "description text 4 description text 4 description text 4 description text 4 description text 4 "
+	}
+]
