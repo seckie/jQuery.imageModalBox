@@ -8,9 +8,12 @@
 <script src="imageModalBox.js"></script>
 <script>
 $(function() {
-$('a').imageModalBox({
+var winHeight = $(window).height(),
+	maxImgHeight = Math.round(winHeight * 0.9);
+$('ul').find('a').imageModalBox({
 	containerClassName: 'modal_container',
-	overlayClassName: 'modal_overlay'
+	overlayClassName: 'modal_overlay',
+	maxHeight: maxImgHeight
 });
 });
 </script>
@@ -18,11 +21,10 @@ $('a').imageModalBox({
 </head>
 <body>
 <ul>
-<li><a href="img1.jpg" data-images="imageData1.json">open image modal box1</a></li>
-<li><a href="img2.jpg" data-images="imageData1.json">open image modal box1</a></li>
-<li><a href="img3.jpg" data-images="imageData1.json">open image modal box1</a></li>
-<!--<li><a href="img1.jpg" data-images="imageData2.json">open image modal box2</a></li>-->
-<!--<li><a href="img1.jpg" data-images="imageData3.json">open image modal box3</a></li>-->
+<li><a href="img/1.jpg" data-title="写真1" data-description="description text 1 description text 1 description text 1 description text 1 description text 1 ">open image modal box1</a></li>
+<li><a href="img/2.jpg" data-title="写真2" data-description="description text 2 description text 2 description text 2 description text 2 description text 2 ">open image modal box2</a></li>
+<li><a href="img/3.jpg" data-title="写真3" data-description="description text 3 description text 3 description text 3 description text 3 description text 3 ">open image modal box3</a></li>
+<li><a href="img/4.jpg" data-title="写真4" data-description="description text 4 description text 4 description text 4 description text 4 description text 4 ">open image modal box4</a></li>
 </ul>
 </body>
 </html>
