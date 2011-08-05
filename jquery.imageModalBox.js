@@ -6,7 +6,7 @@
  * @copyright  Naoki Sekiguchi (http://likealunatic.jp)
  * @license    http://www.opensource.org/licenses/mit-license.html  MIT License
  * @version    Release: 1.0
- * @update     2011-08-01 18:18:41
+ * @update     2011-08-05 16:23:33
  */
 
 (function($) {
@@ -262,6 +262,6 @@ ImageModalBoxGroup.Item.prototype = {
 
 /**
  * ToDo:
- * switchImage するときにフェードなどを入れる
+ * add effect(as fade) when switchImage().
  */
 
